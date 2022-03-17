@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desing</title>
+</head>
+<body>
+	<header>
+		<h1>Etiquetas Básicas de HTML, atributos y valores</h1>
+	</header>
+	<nav>
+		<ul>
+			<Menu:context>
+				<h2>Menu</h2>
+			</Menu:context>
+
+			<li><h3>Inicio</h3></li>
+			<li><h3>Temas</h3>
+				<ul>
+					<li><h4>Principales elementos HTML de Etiquetas</h4></li>
+					<li><h4>Nuevos Atributos y valores</h4></li>
+				</ul>
+			</li>
+			<li><h3>Recursos Digitales</h3>
+				<ul>
+					<li><h4>Recursos 1</h4></li>
+					<li><h4>Recursos 2</h4></li>
+				</ul>
+			</li>
+			<li><h3>Aprendizaje</h3>
+				<ul>
+					<li><h4>Actividad 1</h4></li>
+					<li><h4>Actividad 2</h4></li>
+				</ul>
+			</li>
+			<li><h3>Acerca de</h3>
+				<ul>
+					<li><h4>Autor</h4></li>
+					Tania Julieth Alvarez Morales
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	<section>
+		<h3>Propósito del sitio</h3>
+		<p>El poposito del sitio es dar a conocer las nuevas funcionalidades que trae el lenguaje de HTML 5 para la creaciòn de paginas Web, esto con el fin de poder hacer el uso adecuado aprovechando los nuevos atributos y mejoras que nos permiten lograr una mejor interfaz para ofrecer a nuestros clientes. </p>
+		<br>
+	</section>
+	<article>
+		<h3>Principales elementos HTML de Etiquetas</h3>
+		<p>Actualmente, existen aproximadamente unas 100 etiquetas o elementos definidos en HTML. Es posible que algunas de estas etiquetas no se encuentren disponibles en algunas versiones HTML. 
+		</p>
+		<p>•	html : Esta etiqueta engloba o representa el inicio y el fin de un documento HTML. Salvo alguna excepción que veremos más adelante, cualquier otra etiqueta del documento debe estar definida dentro de la misma. </p>
+		<p>•	body: Etiqueta que engloba el cuerpo del documento HTML, cualquier contenido o información que vayamos a mostrar en nuestra página web debe estar codificado dentro de esta etiqueta. </p>
+		<p>•	head: Es la etiqueta que define el inicio y el fin de la cabecera del documento HTML. </p>
+		<p>•	 meta: Emplearemos esta etiqueta para definir las propiedades de nuestro documento HTML. Por norma general, esta etiqueta recoge datos tales como autor, descripción de la página, palabras claves, software o editor con el que se ha generado el documento y tipo de contenido. </p>
+		<p>•	name: Dependiendo del valor de este atributo estaremos describiendo una información u otra: author para definir el autor de la página web, description para describir el contenido del sitio web, generator para establecer el nombre del editor HTML que estamos utilizando y keywords para definir las palabras claves que identifican el contenido de la web. </p>
+		<p>•	http-equiv: Maneja información que se envía al servidor en la cabecera http. </p>
+		<p>•	content: Recoge el valor de los atributos name y http-equiv. </p>
+		<p>•	title: Etiqueta que define el título o nombre de nuestra página web.</p>
+		<p>•	 link: Utilizaremos esta etiqueta para definir las rutas donde el documento
+				HTML debe buscar las hojas de estilo externas (CSS) o iconos. Si declaramos
+				esta etiqueta, debe ser siempre dentro de la cabecera. Los principales atributos de esta etiqueta son:
+				-	href: Ruta donde se encuentra el recurso en cuestión.
+				-	rel: Relación entre el documento y el objeto o recurso que estamos vinculando.
+				-	type: Tipo de MIME del objeto enlazado.
+					Un ejemplo de uso del elemento link:
+					link href="css/estilo.css" rel="stylesheet" type="text/css" </p>
+		<p>•	script: Etiqueta pensada para incluir código JavaScript en nuestra página web. A diferencia de
+				las anteriores, esta etiqueta y su contenido puede ser declarada tanto en la cabecera como en el cuerpo del documento. Sus posibles atributos son:
+				-	src: Especifica la ruta del fichero externo.
+				-	type: Tipo MIME del fichero al que estamos haciendo referencia o bien del código incluido 	  en la etiqueta. Según Gómez, M. R. (2013). HTML, CSS Y JAVASCRIPT.</p>
+		<img src="img/tema1.png" alt="">
+		<h5>REFERENCIAS</h5>
+		<p>Gómez, M. R. (2013). HTML, CSS Y JAVASCRIPT.
+			Obtenido de https://anayamultimedia.es/primer_capitulo/curso-de-desarrollo-web-html-css-y-javascript-edicion-2021.pdf
+		</p>
+
+	</article>
+	<br>
+	<article>
+		<h3>Nuevos Atributos y valores</h3>
+		<p> Uno de los nuevos atributos y valores es la etiqueta video que permite atributos que hacen mucho más flexible su utilización mediante los navegadores que ya soportan esta característica: Src (URL del archivo que contiene la película a reproducir), Autoplay (la reproducción del video comienza en cuanto la página termina de cargarse), Controls (incluye los controles play, pause y stop para la reproducción del video), Height y Width (se indica el alto y ancho del cuadrilátero donde se ubicará la película ), Loop (la reproducción de nuestra película se inicia de nuevo automáticamente), Muted (la reproducción se realizará sin sonido, Poster (archivo de imagen que representa la carátula del video mientras la reproducción está detenida, antes de que el usuario presione el botón play). Segun Diez, T., Domínguez, M. J., Martínez, J. J., & Sáenz, J. (2012). Creación de páginas Web accesibles con HTML5. Consultado el, 26. </p>
+		<img src="img/tema2.png" alt="">
+		<h5>REFERENCIAS</h5>
+		<p>Diez, T., Domínguez, M. J., Martínez, J. J., & Sáenz, J. (2012). Creación de páginas Web accesibles con HTML5. Consultado el, 26..
+		Obtenido de http://www.esvial.org/wp-content/files/Atica2012_pp120-129.pdf
+	</article>
+	<br>
+	<article>
+		<h3>Mockup de la pagina</h3>
+		<img src="img/Mockup.png" alt="">
+	</article>
+	<br>
+	<footer>
+		<h3>Pie de pagina</h3>
+		<h4>Email:</h4>
+		talvaresm@unadvirtual.edu.co
+		<h4>Skype:</h4>
+		julieth1478
+		<h4>Fecha de actualizaciòn:</h4>
+		17 de Marzo 2022
+	</footer>
+</body>
+</html>
